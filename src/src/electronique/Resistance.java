@@ -2,13 +2,23 @@ package electronique;
 
 public class Resistance extends Composant{
 
-    public Resistance(double resistance) {
+    public static double resistance;
 
+    public Resistance(double resistance) {
+        setResistance(resistance);
     }
 
     @Override
     public double calculerResistance(){
         double resistance = 0;
         return resistance;
+    }
+
+    public static double getResistance() {
+        return resistance;
+    }
+
+    public static void setResistance(double resistance) {
+        Resistance.resistance = resistance;
     }
 }

@@ -1,17 +1,19 @@
 package app;
 
+import electronique.Composant;
+
 public class CircuitBuilder {
 
     public CircuitBuilder(){
 
     }
 
-    public String construireCircuit(String nom){
+    public Composant construireCircuit(String nom){
         return null;
     }
 
     /*
-    private lireComposant(JsonNode){
+    private composant lireComposant(JsonNode){
         return
     }
     */
