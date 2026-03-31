@@ -1,7 +1,9 @@
 package electronique;
 
+import java.util.List;
+
 public class CircuitSerie extends Circuit{
-    public CircuitSerie(Composant[] composants) {
+    public CircuitSerie(List<Composant> composants) {
         super(composants);
     }
 

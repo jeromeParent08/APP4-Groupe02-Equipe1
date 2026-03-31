@@ -10,7 +10,7 @@ public class Resistance extends Composant{
 
     @Override
     public double calculerResistance(){
-        double resistance = 0;
+        double resistance = this.resistance;
         return resistance;
     }
 
